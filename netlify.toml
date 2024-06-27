@@ -1,0 +1,6 @@
+[build]
+  command = "npm install && npm run build:front && npm run build:back"
+  publish = "proyectofinal/dist/proyectofinal"
+
+[functions]
+  directory = "backend-servidor/functions"
